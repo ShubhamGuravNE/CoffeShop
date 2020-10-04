@@ -1,0 +1,10 @@
+/* ===================================
+    Demo page
+====================================== */
+
+.buy-theme {position:fixed; top:115px; border-radius: 4px; right: -151px; background: url("../images/buy-theme.png") no-repeat 14px center rgba(50,50,50,.8); z-index: 1000}
+.buy-theme:hover, .quick-question:hover {right: -26px}
+.buy-theme span, .quick-question span {padding:0 28px; position: relative; top:0; opacity: 0}
+.buy-theme:hover span, .quick-question:hover span {opacity: 1}
+.buy-theme a, .quick-question a { color: #fff; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; padding:8px 15px; display: block }
+.quick-question {position:fixed; top:165px; border-radius: 4px; right: -135px; background: url("../images/quick-question.png") no-repeat 14px center rgba(50,50,50,.8); z-index: 10}

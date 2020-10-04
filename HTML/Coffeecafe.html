@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Coffee Cafe</title>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="../CSS/Cafe.css">
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="../Fontawsome/font-awesome.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="../Animation/animate.css">
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="../Slick/slick.css">
+    <!-- Slick theme -->
+    <link rel="stylesheet" type="text/css" href="../Slick/slick-theme.css">
+
+    <!-- glya -->
+    <link type="text/css" href="">
+
+
+</head>
+<body>
+	<header class="container-fluid background-img-1 header-height">
+		<div class="header-black">
+			<!-- navbar -->
+			<nav class="navbar navbar-expand-lg navbar-dark     no-margin alt-font shrink-transparent-header-dark header-border-light sticky-top position-fixed shrink-nav     active-nav custom-navbar shrink-nav shrink px-5">
+	  			<div class="active"><a class="navbar-brand text-uppercase" href="#"> Coffee Cafe</a></div>
+	  			<button class="navbar-toggler nav-button btn-md bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+	  				<span class="navbar-toggler-icon"></span>
+                    <!-- <span class="bg-light line1"></span>
+                    <span class="bg-light line2"></span>
+                    <span class="bg-light line3"></span>
+ -->	  			</button>
+
+	  			<div class="collapse navbar-collapse" id="navbarSupportedContent active-body">
+	    			<ul id="" class="nav navbar-nav ml-auto">
+	      				<li class="nav-item active">
+	        				<a class="nav-link text-white" href="#section1">ABOUT</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link text-white" href="#section3">SERVICES</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link text-white" href="#section4">MENU</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link text-white" href="#section6">REVIEW</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link text-white" href="#section7">BLOG</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link text-white" href="#section8">CONTACT</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="inner-link btn bg-golden text-dark rounded-0 font-weight-500" href="#section10">RESERVATION</a>
+	      				</li>
+	    			</ul>
+	  			</div>
+			</nav>
+		</div>
+
+		<div id="hero-img">
+			<div class="row m-0">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+					<img class="img-fluid" src="../Images/hero-text.png">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section id="section1" class="container-fluid background-img-2 py-5">
+		<div class="container">
+			<div class="text-center pt-md-5 pb-5">
+				<div class="main-head font-weight-700 alt-font text-golden text-wrap text-break">WELLCOME TO COFFEE SHOP</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12 col-md-5 col-lg-5 align-self-center">
+					<div class="text-wrap alt-font title-extra-large font-weight-700 text-dark-gray py-4">We create best coffee experience for you and your family.</div>
+					<div class="text-medium alt-font text-light-gray3 pt-3">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+						<p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type scrambled it to make a type specimen book.</p>
+					</div>
+					<div class="py-3"><a type="button" class="btn bg-golden rounded-pill text-center alt-font text-small" data-toggle="modal" data-target="#other-pg">Our Other Shopes <i class="fa fa-chevron-right" aria-hidden="true"></i></a></div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6 offset-md-1 align-self-center">
+					<img class="img-fluid" src="../Images/application-screenshot-img-06-new.png">
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- modal -->
+      <div class="modal fade" id="other-pg" data-backdrop="static" data-keyboard="false" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Go To Another Page?</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  Press OK to go another page.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-dismiss="modal">OK</button>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+          </div>
+      </div>
+    <!-- modal end -->
+
+
+	<!-- <section id="section2" class="container-fluid">
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 no-padding">
+
+			<div class="col">
+				<figure class="gallery-img">
+					<a href="../Images/agency-work-13.jpg"><img class="img-fluid" src="../Images/agency-work-13.jpg" data-toggle="tooltip" data-placement="auto" title="Click for large Image"></a>
+				</figure>
+			</div>
+			<div class="col">
+				<figure class="gallery-img">
+					<a href="../Images/agency-work-01.jpg" title=""><img class="img-fluid" src="../Images/agency-work-01.jpg" data-toggle="tooltip" data-placement="auto" title="Click for large Image"></a>
+				</figure>
+			</div>
+			<div class="col">
+				<figure>
+					<a href="../Images/agency-work-14.jpg"><img class="img-fluid" src="../Images/agency-work-14.jpg"  data-toggle="tooltip" data-placement="auto" title="Click for large Image"></a>
+				</figure>
+			</div>
+			<div class="col">
+				<figure>
+					<a href="../Images/agency-work-08.jpg"><img class="img-fluid" src="../Images/agency-work-08.jpg" data-toggle="tooltip" data-placement="auto" title="Click for large Image"></a>
+				</figure>
+			</div>
+			<div class="col">
+				<figure>
+					<a href="../Images/agency-work-15.jpg"><img class="img-fluid" src="../Images/agency-work-15.jpg" data-toggle="tooltip" data-placement="auto" title="Click for large Image"></a>
+				</figure>
+			</div>
+			<div class="col">
+				<figure>
+					<a href="../Images/agency-work-04.jpg"><img class="img-fluid" src="../Images/agency-work-04.jpg" data-toggle="tooltip" data-placement="auto" title="Click for large Image"></a>
+				</figure>
+			</div>
+			<div class="col">
+				<figure>
+					<a href="../Images/agency-work-02.jpg"><img class="img-fluid" src="../Images/agency-work-02.jpg" data-toggle="tooltip" data-placement="auto" title="Click for large Image"></a>
+				</figure>
+			</div>
+			<div class="col">
+				<figure>
+					<a href="../Images/agency-work-06.jpg"><img class="img-fluid" src="../Images/agency-work-06.jpg" data-toggle="tooltip" data-placement="auto" title="Click for large Image"></a>
+				</figure>
+			</div>
+
+		</div>
+	</section> -->
+
+	<section id="section2" class="container-fluid background-img-5 py-5">
+		<div class="gallary-container">
+			<div class="text-center pt-md-5">
+				<h2 class="section-head-title font-weight-700 alt-font">Gallery</h2>
+				<p class="text-medium text-light-gray2 width-60 margin-lr-auto pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+			</div>
+
+<div class="gallery-wrap pb-2 pt-5">
+<div class="item item-1"></div>
+<div class="item item-2">
+
+
+</div>
+<div class="item item-3"></div>
+<div class="item item-4"></div>
+<div class="item item-5"></div>
+<!-- <div class="item item-6"></div>
+<div class="item item-7"></div>
+<div class="item item-8"></div> -->
+</div>
+		</div>
+	</section>
+
+
+	<section id="section3" class="container-fluid py-5 px-md-5">
+		<div class="text-center pt-md-5">
+			<h2 class="section-head-title font-weight-700 alt-font">CAFE SERVICES</h2>
+			<p class="text-medium text-light-gray2 width-60 margin-lr-auto pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+				<img src="../Images/restaurant-service-icon01.png" class="p-4">
+				<h3 class="alt-font">BREAKFAST</h3>
+				<p class="text-medium text-light-gray2 font-weight-light"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+				<img src="../Images/restaurant-service-icon04.png" class="p-4">
+				<h3 class="alt-font">DRINKS</h3>
+				<p class="text-medium text-light-gray2 font-weight-light"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+				<img src="../Images/restaurant-service-icon02.png" class="p-4">
+				<h3 class="alt-font">CUSTOM ORDER</h3>
+				<p class="text-medium text-light-gray2 font-weight-light"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+				<img src="../Images/restaurant-service-icon03.png" class="p-4">
+				<h3 class="alt-font">PARTY ORDER</h3>
+				<p class="text-medium text-light-gray2 font-weight-light"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="section4" class="container-fluid background-img-3 py-5">
+		<div class="text-center pt-md-5">
+			<h2 class="section-head-title font-weight-bold alt-font text-white">Main Menu</h2>
+			<p class="text-medium text-light-gray width-60 margin-lr-auto pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+
+		<div class="row text-center px-5 py-5">
+			<div class="col-md-2 col-sm-4 col-xs-6 p-2">
+				<div class="menu-link text-golden active-menu" data-filter="tab1">
+					<div class="pb-2"><img src="../Images/restaurant-menu-iteam01.png"></div>
+					<div class="pb-3">DELIGHT</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6 p-2">
+				<div class="menu-link text-golden" data-filter="tab2">
+					<div class="pb-2"><img src="../Images/restaurant-menu-iteam02.png"></div>
+					<div class="pb-3">CAKES</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6 p-2">
+				<div class="menu-link text-golden" data-filter="tab3">
+					<div class="pb-2"><img src="../Images/restaurant-menu-iteam03.png"></div>
+					<div class="pb-3">PASTRY</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6 p-2">
+				<div class="menu-link text-golden" data-filter="tab4">
+					<div class="pb-2"><img src="../Images/restaurant-menu-iteam04.png"></div>
+					<div class="pb-3">COOKIE</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6 p-2">
+				<div class="menu-link text-golden" data-filter="tab5">
+					<div class="pb-2"><img src="../Images/restaurant-menu-iteam05.png"></div>
+					<div class="pb-3">DESSERTS</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6 p-2">
+				<div class="menu-link text-golden" data-filter="tab6">
+					<div class="pb-2"><img src="../Images/restaurant-menu-iteam06.png"></div>
+					<div class="pb-3">DRINKS</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="d-flex flex-wrap pt-3">
+
+			<div class="row all tab1">
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Green Salad</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Any Style</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Benedict</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Baked Spinach</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Soft-Boiled Organic Egg</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Norwegian</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row all tab2">
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Green Salad</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Any Style</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Baked Spinach</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Soft-Boiled Organic Egg</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row all tab3">
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Norwegian</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Benedict</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Any Style</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row all tab4">
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Benedict</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Soft-Boiled Organic Egg</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row all tab5">
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Green Salad</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Any Style</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Benedict</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Baked Spinach</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Soft-Boiled Organic Egg</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Eggs Norwegian</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row all tab6">
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Green Salad</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+				<div class="container col-md-6 col-sm-12 col-xs-12 col-xl-6 text-left">
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Baked Spinach</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 alt-font"><div class=" text-light-gray font-weight-400 pb-2"> Soft-Boiled Organic Egg</div>
+						<p class="text-small text-medium text-light-gray2 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.</p>
+						</div>
+						<div class="col-md-2 alt-font text-right text-light-gray font-weight-400">$12.00</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<section id="section5" class="container-fluid background-color1 py-5">
+		<div class="text-center pt-md-5">
+			<div class="section-head-title font-weight-700 alt-font text-dark text-wrap text-break">RECOMMENDED BY OUR CHEF</div>
+			<p class="text-medium text-light-gray3 width-60 margin-lr-auto pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+		<div class="single-item py-5 mx-auto chef-slider-width">
+			<div class="slide1">
+				<div class="row mx-auto">
+					<div class="col-md-6 col-sm-12 background-img-2 no-gutters">
+						<div class=" about-text">
+							<div class="text-left">
+								<div class="section-title-large2 text-golden alt-font font-weight-600">Coffee Traveler</div>
+								<div class="text-medium text-dark-gray alt-font pb-4">Recommended by our chef Nicole Jones</div>
+							</div>
+							<div class="text-light-gray2 alt-font">
+								<p class="text-large pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+								<p class="text-medium pb-3">Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+							</div>
+							<div><img src="../Images/signature.png" class="img-fluid"></div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-12 about-img1"></div>
+				</div>
+			</div>
+			<div class="slide2">
+				<div class="row mx-auto">
+					<div class="col-md-6 col-sm-12 background-img-2 no-gutters">
+						<div class=" about-text">
+							<div class="text-left">
+								<div class="section-title-large2 text-golden alt-font font-weight-600">Coffee Traveler</div>
+								<div class="text-medium text-dark-gray alt-font pb-4">Recommended by our chef Nicole Jones</div>
+							</div>
+							<div class="text-light-gray2 alt-font">
+								<p class="text-large pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+								<p class="text-medium pb-3">Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+							</div>
+							<div><img src="../Images/signature.png" class="img-fluid"></div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-12 about-img2"></div>
+				</div>
+			</div>
+			<div class="slide3">
+				<div class="row mx-auto">
+					<div class="col-md-6 col-sm-12 background-img-2 no-gutters">
+						<div class=" about-text">
+							<div class="text-left">
+								<div class="section-title-large2 text-golden alt-font font-weight-600">Coffee Traveler</div>
+								<div class="text-medium text-dark-gray alt-font pb-4">Recommended by our chef Nicole Jones</div>
+							</div>
+							<div class="text-light-gray2 alt-font">
+								<p class="text-large pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+								<p class="text-medium pb-3">Lorem Ipsum is simply dummy text of the printing typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+							</div>
+							<div><img src="../Images/signature.png" class="img-fluid"></div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-12 about-img3"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="section6" class="container-fluid background-color2 py-5">
+		<div class="text-center">
+			<h2 class="section-head-title text-white font-weight-700 alt-font pt-md-5">CAFE REVIEW</h2>
+			<p class="text-medium text-light-gray2 width-60 margin-lr-auto pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+		<div class="row p-5 mx-auto">
+			<div class="col-sm-12 col-md-6 col-lg-4 review-card-margine">
+				<div class="card border-0 shadow-sm bg-white rounded py-4">
+					<div class="card-img-margin">
+						<img src="../Images/1.png" class="img-fluid">
+					</div>
+					<div class="card-body text-center">
+						<div class="text-golden text-large"><i class="fa fa-quote-left fa-2x"></i></div>
+						<p class="text-medium text-light-gray3 pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+						<div class="text-golden text-large"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+						<div class="alt-font text-medium font-weight-600 pt-2">NATHAN FORD</div>
+						<small class="alt-font text-extra-small text-light-gray2">GOOGLE INC</small>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4 review-card-margine">
+				<div class="card border-0 shadow-sm bg-white rounded py-4">
+					<div class="card-img-margin">
+						<img src="../Images/2.png" class="img-fluid">
+					</div>
+					<div class="card-body text-center">
+						<div class="text-golden text-large"><i class="fa fa-quote-left fa-2x"></i></div>
+						<p class="text-medium text-light-gray3 pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+						<div class="text-golden text-large"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+						<div class="alt-font text-medium font-weight-600 pt-2">SHOKO MUGIKURA</div>
+						<small class="alt-font text-extra-small text-light-gray2">APPLE STUDIO</small>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4 review-card-margine mx-auto">
+				<div class="card border-0 shadow-sm bg-white rounded py-4">
+					<div class="card-img-margin">
+						<img src="../Images/3.png" class="img-fluid">
+					</div>
+					<div class="card-body text-center">
+						<div class="text-golden text-large"><i class="fa fa-quote-left fa-2x"></i></div>
+						<p class="text-medium text-light-gray3 pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+						<div class="text-golden text-large"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+						<div class="alt-font text-medium font-weight-600 pt-2">SIMON SCHMID</div>
+						<small class="alt-font text-extra-small text-light-gray2">MICROSOFT INC</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="section7" class="container-fluid py-5">
+		<div class="text-center pt-md-5">
+			<div class="section-head-title font-weight-700 alt-font">OUR BLOGS</div>
+			<p class="text-medium text-light-gray2 width-60 margin-lr-auto pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+		<div class="container-md py-5">
+			<div class="card-deck">
+				<div class="card text-center">
+					<div class="card-img-overflow"><img src="../Images/agency-content-img01.jpg" class="card-img-top"></div>
+					<div class="card-body background-color2">
+						<div class="post-author bg-golden text-white">MARTIN SMITH <span>29 JULY, 2016</span></div>
+						<div class="text-medium font-weight-600 text-white pt-3">WARM HUMMUS WITH SPICED LAMB</div>
+						<div class="text-medium text-light-gray2 py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</div>
+					</div>
+				</div>
+				<div class="card text-center">
+					<div class="card-img-overflow"><img src="../Images/agency-content-img02.jpg" class="card-img-top "></div>
+					<div class="card-body background-color2">
+						<div class="post-author bg-golden text-white">PAUL SCRIVENS <span>26 JULY, 2016</span></div>
+						<div class="text-medium font-weight-600 text-white pt-3">SCRATCH MADE MOSCOW MULES</div>
+						<div class="text-medium text-light-gray2 py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</div>
+					</div>
+				</div>
+				<div class="card text-center">
+					<div class="card-img-overflow"><img src="../Images/agency-content-img03.jpg" class="card-img-top"></div>
+					<div class="card-body background-color2">
+						<div class="post-author bg-golden text-white">SMITH JOHNS <span>24 JULY, 2016</span></div>
+						<div class="text-medium font-weight-600 text-white pt-3">CRUMB TOPPED APPLE SLAB PIE</div>
+						<div class="text-medium text-light-gray2 py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="section8" class="container-fluid bg-light py-5">
+		<div class="text-center pt-md-5">
+			<div class="section-head-title font-weight-700 alt-font">CONTACT</div>
+			<p class="text-medium text-light-gray2 width-60 margin-lr-auto pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+		<div class="container text-center py-md-5">
+			<div class="card-deck">
+				<div class="card shadow-sm bg-white rounded contact-card">
+					<div class="pt-5"><i class="fa fa-map-marker fa-2x text-golden"></i></div>
+					<div class=" alt-font text-medium font-weight-600 py-2">Contact Address</div>
+					<p class="text-medium text-light-gray2 pb-4">301 The Greenhouse, Custard,<br>Factory, London, E2 8DY.</p>
+				</div>
+				<div class="card shadow-sm bg-white rounded contact-card">
+					<div class="pt-5"><i class="fa fa fa-mobile fa-2x text-golden"></i></div>
+					<div class=" alt-font text-medium font-weight-600 py-2">Call Us Today!</div>
+					<p class="text-medium text-light-gray2 pb-4">(M) +44 (0) 123 456 7890<br>(O) +44 (0) 123 456 7890</p>
+				</div>
+				<div class="card shadow-sm bg-white rounded contact-card">
+					<div class="pt-5"><i class="fa fa-envelope fa-2x text-golden"></i></div>
+					<div class=" alt-font text-medium font-weight-600 py-2">Email</div>
+					<p class="text-medium text-light-gray2 pb-4"><a class="text-light-gray2" href="mailto:no-reply@domain.com">no-reply@domain.com</a><br><a class="text-light-gray2" href="mailto:help@domain.com">help@domain.com</a></p>
+				</div>
+				<div class="card shadow-sm bg-white rounded contact-card">
+					<div class="pt-5"><i class="fa fa-clock fa-2x text-golden"></i></div>
+					<div class=" alt-font text-medium font-weight-600 py-2">Working Hours</div>
+					<p class="text-medium text-light-gray2 pb-4">Mon to Sat - 9 AM to 11 PM<br>Sunday - 10 AM to 6 PM</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<!-- Accordian -->
+	<section id="section9" class="container-fluid background-img-5 py-5">
+		<div class="container">
+
+			<div class="text-center pt-md-5">
+				<div class="section-head-title font-weight-700 alt-font">ACCORDIAN</div>
+				<p class="text-medium text-light-gray2 width-60 margin-lr-auto pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+
+			 <div class="py-5 accordian-body">
+
+			 	<!-- Accordian -->
+			   	<div class="accordions">
+				  	<div class="accordions_title"><h3>Accordion Title 1</h3><span></span></div>
+				  	<div class="accordions_content">
+				    	<p>Accordion Content 1</p>
+				  	</div>
+				  	<div class="accordions_title"><h3>Accordion Title 2</h3><span></span></div>
+				  	<div class="accordions_content">
+				    	<p>Accordion Content 2</p>
+				  	</div>
+				</div>
+				<!-- Accordian end -->
+
+			  </div>
+
+			</div>
+	</section>
+
+	<!-- End accordian -->
+
+	<section id="section10" class="container-fluid background-img-4 py-5">
+		<div class="text-center pt-md-5">
+			<div class="title-extra-large text-white alt-font pt-5">BOOK A TABLE</div>
+			<p class="text-medium text-light-gray width-60 margin-lr-auto pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+		</div>
+		<div  class="col-lg-6 col-md-8 col-sm-10 col-xs-12 center-col text-center py-4">
+			<form>
+				<div class="m-3"><input type="text" class="form-control p-4" id="validationDefault01" placeholder="*Your Name" required></div>
+				<div class="m-3"><input type="email" class="form-control p-4" id="validationDefault01" placeholder="*Your Email" required></div>
+				<div class="m-3"><textarea type="text" class="form-control p-4" id="validationTextarea" placeholder="*Message"></textarea></div>
+				<div class="my-5"><button class="btn alt-font text-white bg-golden" type="submit" >BOOK TABLE</button></div>
+			</form>
+		</div>
+	</section>
+
+	<footer class="container-fluid bg-light py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12 text-left xs-text-center text-small align-self-center">LEADGEN IS PROUDLY POWERED BY THEMEZAA</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-12 text-right xs-text-center">
+					<div>
+						<a href="#"><i class="fab fa-facebook fa-2x text-golden"></i></a>
+						<a href=""><i class="fab fa-twitter fa-2x text-golden"></i></a>
+						<a href="#"><i class="fab fa-linkedin fa-2x text-golden"></i></i></a>
+						<a href="#"><i class="fab fa-google-plus-square fa-2x text-golden"></i></a>
+						<a href="#"><i class="fab fa-pinterest-square fa-2x text-golden"></i></i></a>
+						<a href="#"><i class="fab fa-youtube fa-2x text-golden"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+</body>
+
+	<!-- jQuery Library -->
+    <script type="text/javascript" src="../JS/jQuery.js"></script>
+    <!-- <script type="text/javascript" src="../JS/jquery.min.js.download"></script> -->
+
+    <!-- main -->
+    <script type="text/javascript" src="../JS/main.js.download"></script>
+
+	<!-- Customised JS -->
+	<script type="text/javascript" src="../JS/Coffeecafe.js"></script>
+
+	<!-- Slick slider -->
+	<script type="text/javascript" src="../Slick/slick.min.js"></script>
+
+    <script type="text/javascript" src="../JS/smooth-scroll.js.download"></script>
+
+    <!-- Font Awsome -->
+    <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+
+</html>
