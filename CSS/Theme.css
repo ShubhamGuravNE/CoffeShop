@@ -1,0 +1,155 @@
+
+/* ======----List of Classes----====== */
+
+/* ===================================
+    Margin
+====================================== */
+.margin-lr-auto {
+	margin-left:auto !important; 
+	margin-right:auto !important;
+}
+
+
+/* ===================================
+    Width
+====================================== */
+.width-60 { 
+	width:60%;
+}
+.width-70 { 
+	width:70%;
+}
+.width-100 { 
+	width:100%;
+}
+
+
+/* ===================================
+    Background Imgs
+====================================== */
+.background-img-1{
+	background: linear-gradient(rgba(35,31,41,0.7), rgba(35,31,41,0.7)), url(../Images/agency-work-08.jpg);
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-position: bottom;
+  	background-repeat: no-repeat;
+}
+.background-img-2{
+	background: url(../Images/hero-bg17.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.background-img-3{
+	background: url(../Images/restaurant-menu-bg.jpg) no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.background-img-4{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../Images/hero-bg3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.background-img-5{
+	background: url(../Images/texture_old_map.png);
+}
+
+
+/* ===================================
+    Background Colors
+====================================== */
+.background-color1{
+	/*background: #fbf9f3;*/
+	background: #dbc991;
+}
+.background-color2{
+	background: #242526;
+}
+
+
+/* ===================================
+    Font Family
+====================================== */
+.alt-font {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/* ===================================
+    Text Size
+====================================== */
+.main-head{
+	font-size:50px !important; 
+	line-height:57px;
+}
+.title-extra-large{
+	font-size: 35px;
+	line-height: 40px;
+}
+.section-title-large2{
+	font-size: 24px;
+	line-height: 30px;
+}
+.section-head-title{	
+	font-size: 35px !important; 
+	line-height: 39px;
+}
+.text-large{ 
+	font-size:16px !important; 		
+	line-height: 25px; 
+}
+.text-medium{ 
+	font-size:14px; 
+	line-height:24px;
+}
+.text-small{ 
+	font-size:12px !important; 
+	line-height:20px;
+}
+.text-extra-small{ 
+	font-size:10px !important; 
+	line-height:15px;
+}
+
+
+/* ===================================
+    Font Weight
+====================================== */
+.font-weight-300{
+	font-weight: 300 !important;
+}
+.font-weight-400{
+	font-weight: 400 !important;
+}
+.font-weight-500{
+	font-weight: 500 !important;
+}
+.font-weight-600{
+	font-weight: 600 !important;	
+}
+.font-weight-700{
+	font-weight: 700 !important;	
+}
+
+
+/* ===================================
+    Text Colors
+====================================== */
+.text-dark-gray{
+	color: #282828 !important;
+}
+.text-light-gray {
+	color: #bfbfbf !important;
+}
+.text-light-gray2{
+	color: #848484 !important;
+}
+.text-light-gray3{
+	color: #707070 !important;
+}
+.text-golden{
+	color: #d0ae5e !important;
+}
+.bg-golden{
+	background: #d0ae5e !important;	
+}
