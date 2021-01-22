@@ -1,0 +1,426 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Header section*/
+.header-height {
+  max-height: 100vh;
+}
+
+/*header section end*/
+/* ===================================
+    Navbar
+====================================== */
+/*.shrink-nav{
+ 	padding: 11px 0;
+ 	border-bottom: 1px solid rgba(0,0,0,0.1);
+}*/
+.navbar li.active>a {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar li.active>a:focus {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.dropdown-menu>li>a:focus {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-item .btn {
+  vertical-align: super !important;
+  padding: 3px !important;
+}
+
+.navbar {
+  padding: 20px 0 20px;
+  z-index: 999;
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar img {
+  max-height: 35px
+}
+
+.navbar li {
+  margin: 13px 20px;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.navbar li a {
+  font-size: 12px;
+  padding: 0;
+  cursor: pointer !important;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar li a:hover {
+  opacity: 0.8;
+}
+
+/* .navbar li a.active, .navbar li.active > a, .nav .open>a, .nav .open>a:hover {opacity: 0.8; } */
+/* .navbar.shrink-nav .shrink .header-bottom { padding: 11px 0;} */
+/* transparent header */
+.shrink-transparent-header-dark.shrink {
+  background: #000000 !important;
+}
+
+/* header border bottom */
+.header-border-light {
+  border-bottom: 1px solid rgba(255, 255, 255, .1)
+}
+
+.header-border-dark {
+  border-bottom: 1px solid rgba(0, 0, 0, .1)
+}
+
+/* ===================================
+    Navbar End
+====================================== */
+/* ===================================
+    Section2
+====================================== */
+/*figure {
+	overflow: hidden;
+}
+figure:hover img {
+	cursor: url("../images/restaurant-menu-iteam02.png"), pointer;
+	filter: grayscale(100%);
+	transform: scale(1.2, 1.2);
+	transition: all 0.7s ease 0s;
+}*/
+/*==========Section2 New==========*/
+.gallary-container {
+  /*padding: 75px 0;*/
+  margin: 0 auto;
+  width: 900px;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+
+.item:hover {
+  flex: 5;
+}
+
+.item-1 {
+  background-image: url("../Images/agency-work-13.jpg");
+}
+
+.item-2 {
+  background-image: url("../Images/agency-work-01.jpg");
+}
+
+.item-3 {
+  background-image: url("../Images/agency-work-02.jpg");
+}
+
+.item-4 {
+  background-image: url("../Images/agency-work-04.jpg");
+}
+
+.item-5 {
+  background-image: url("../Images/agency-work-06.jpg");
+}
+
+/*.item-6 {
+  background-image: url("../Images/agency-work-15.jpg");
+}
+.item-7 {
+  background-image: url("../Images/agency-work-08.jpg");
+}
+.item-8 {
+  background-image: url("../Images/agency-work-14.jpg");
+}*/
+/* ===================================
+    Section2 End
+====================================== */
+/* ===================================
+    Section4
+====================================== */
+.menu-link {
+  cursor: pointer;
+  user-select: none;
+}
+
+.menu-link:hover {
+  color: #17a2b8 !important;
+}
+
+.active-menu {
+  color: #17a2b8 !important;
+}
+
+/* ===================================
+    Section4 End
+====================================== */
+/* ===================================
+    Section5
+====================================== */
+.chef-slider-width {
+  width: 70%;
+  cursor: ew-resize;
+  caret-color: red;
+}
+
+.about-text {
+  min-height: 580px;
+  padding: 12%;
+}
+
+.about-img1 {
+  min-height: 580px;
+  background: url(../Images/restaurant-chef-01.jpg);
+  background-size: cover;
+  position: center;
+}
+
+.about-img2 {
+  min-height: 580px;
+  background: url(../Images/restaurant-chef-02.jpg);
+  background-size: cover;
+  background-attachment: center;
+}
+
+.about-img3 {
+  min-height: 580px;
+  background: url(../Images/restaurant-chef-03.jpg);
+  background-size: cover;
+  background-attachment: center;
+}
+
+/* ===================================
+    Section5 End
+====================================== */
+/* ===================================
+    Section6
+====================================== */
+.review-card-margine {
+  margin-top: 180px;
+}
+
+.card-img-margin {
+  margin-top: -196px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* ===================================
+    Section6 End
+====================================== */
+/* ===================================
+    Section7
+====================================== */
+.post-author {
+  color: #fff;
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 18px;
+  padding: 4px 5px !important;
+  text-align: center;
+}
+
+.card-img-overflow {
+  overflow: hidden;
+}
+
+.card-img-top:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 0.4s ease 0s;
+}
+
+/* ===================================
+    Section7 End
+====================================== */
+/* ===================================
+    Section8
+====================================== */
+.contact-card:hover {
+  transform: scale(1.3, 1.3);
+  transition: all 0.4s ease 0s;
+  z-index: 99;
+  /*cursor: pointer;*/
+}
+
+/*Section8 End*/
+/* ===================================
+    Section9
+====================================== */
+/*Accordian*/
+.accordian-body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.accordions_title {
+  display: grid;
+  grid-template-columns: 1fr 20px;
+  padding: 10px 0;
+  background-color: #ebebeb;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 8px 40px;
+  transition: 0.3s linear;
+}
+
+.accordions_title h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #1d1d29;
+  transition: 0.3s linear;
+  margin-bottom: 0;
+  margin-top: 6px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.accordions_title span {
+  margin-top: -1px;
+  align-self: top;
+  justify-self: end;
+  display: block;
+}
+
+.accordions_title span:after {
+  content: "+";
+  display: inline-block;
+  transition: 0.3s linear;
+  font-size: 16px;
+  position: relative;
+  color: #ed544f;
+  margin-left: 5px;
+  font-size: 30px;
+}
+
+.accordions_title .active {
+  background-color: #ed544f;
+  color: #fff;
+}
+
+.accordions_title .active h3 {
+  color: #fff;
+}
+
+.accordions_title .active span:after {
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  color: #1d1d29;
+}
+
+.accordions_content {
+  display: none;
+  padding: 20px 20px;
+  background-color: #2d2d39;
+}
+
+.accordions_content p {
+  color: #fff;
+}
+
+.accordions_content ul {
+  color: #fff;
+}
+
+/*Accordian end*/
+/*End Section9 */
+/* ===================================
+    Section10
+====================================== */
+.center-col {
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/*Section10 End*/
+/* ===================================
+    Mobile View
+====================================== */
+/*Mobile view (less than 768px)*/
+@media (min-width: 541px) and (max-width: 768px) {
+  .chef-slider-width {
+    width: 90%;
+  }
+
+  /*Section2 New*/
+  .gallary-container {
+    /*padding: 75px 0;*/
+    margin: 0 auto;
+    width: 500px;
+  }
+
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+  /*======----Section2 New----======*/
+  .gallary-container {
+    /*padding: 75px 0;*/
+    margin: 0 auto;
+    width: 700px;
+  }
+
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .item:hover {
+    flex: 5;
+  }
+}
+
+/*Mobile view (less than 540px)*/
+@media only screen and (max-width: 540px) {
+  .chef-slider-width {
+    width: 100%;
+  }
+
+  /*Section2 New*/
+  .gallary-container {
+    /*padding: 75px 0;*/
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30vh;
+  }
+}
