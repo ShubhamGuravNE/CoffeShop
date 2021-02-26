@@ -12,29 +12,6 @@ body {
 /* ===================================
     Navbar
 ====================================== */
-/*.shrink-nav{
- 	padding: 11px 0;
- 	border-bottom: 1px solid rgba(0,0,0,0.1);
-}*/
-.navbar li.active>a {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-  border-top: 2px solid rgba(255, 255, 255, 0.3);
-}
-
-.navbar li.active>a:focus {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-  border-top: 2px solid rgba(255, 255, 255, 0.3);
-}
-
-.dropdown-menu>li>a:focus {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-  border-top: 2px solid rgba(255, 255, 255, 0.3);
-}
-
-.nav-item .btn {
-  vertical-align: super !important;
-  padding: 3px !important;
-}
 
 .navbar {
   padding: 20px 0 20px;
@@ -67,9 +44,6 @@ body {
   opacity: 0.8;
 }
 
-/* .navbar li a.active, .navbar li.active > a, .nav .open>a, .nav .open>a:hover {opacity: 0.8; } */
-/* .navbar.shrink-nav .shrink .header-bottom { padding: 11px 0;} */
-/* transparent header */
 .shrink-transparent-header-dark.shrink {
   background: #000000 !important;
 }
